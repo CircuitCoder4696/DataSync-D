@@ -1,2 +1,2 @@
 # DataSync-D
-A syncrhonization package
+A syncrhonization package.  It is still incomplete.  
