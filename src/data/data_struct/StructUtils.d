@@ -1,5 +1,5 @@
 module data.data_struct.StructUtils;
-import core.data.DataUtils;
+import data.DataUtils;
 import core.stdc.stdlib:malloc;
 import std.algorithm:canFind;
 import std.stdio:writeln;
