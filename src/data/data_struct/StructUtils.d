@@ -131,6 +131,7 @@ public static void data(void* data) {
 };
 
 public void main(string[] ArgV) {
+        pragma(msg,"This is currently experimental, and has bugs in it.  Suggestions for overcoming bugs are welcome.  ");
 	import core.data.DataUtils;
 	import hex;
 	// test1 d_00= test1(1, 2, allocate(40), allocate(40), 40, allocate(40));
