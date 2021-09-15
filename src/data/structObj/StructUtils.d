@@ -1,4 +1,4 @@
-module data.data_struct.StructUtils;
+module data.structObj.StructUtils;
 import data.DataUtils;
 import core.stdc.stdlib:malloc;
 import std.algorithm:canFind;
@@ -43,7 +43,7 @@ struct slice_t {
 		size_t p_00= (cast(size_t) this.parrentTypePtr) + this.ptr;
 		return p_00 > this.ptr;
 	};
-	public bool isInDataStruct() @property {
+	public bool isInStruct() @property {
 		return (this.parrentTypePtr + this.refOffset) == this.ptr;
 	};
     public void setSliceOffset(size_t newOffset) {
